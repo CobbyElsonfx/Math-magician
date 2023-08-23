@@ -5,6 +5,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -20,7 +21,7 @@
 
 # 📖 About the Project <a name="about-project"></a>
 
-**Calculator** This is a calculator app that helps you to perform all your calculations
+**Leaderboard** The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -28,18 +29,24 @@
 <details>
   <summary>Client</summary>
   <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/javascript">React</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/javascript">JavaScript</a></li>
   </ul>
 </details>
 
 ### Key Features <a name="key-features"></a>
 
-- **Performs all arithmetic calculations**
-
+- **Displays Added Scores**
+- **Ability to add a new scores**
+- **Consumes an API**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+
+- [Live Project](https://cobbyelsonfx.github.io/Leaderboard-API/dist/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -61,7 +68,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd project-folder
-  git clone https://github.com/CobbyElsonfx/maths-magician.git
+  git clone https://github.com/CobbyElsonfx/Leaderboard-API.git
 ```
 
 ### Deployment
