@@ -1,7 +1,7 @@
 const Screen = () => (
   <div className="displayScreen">
     <div>
-      <span>0</span>
+      <span className="calculatorValueOnScreen">0</span>
     </div>
   </div>
 );
