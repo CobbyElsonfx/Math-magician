@@ -29,7 +29,7 @@
   <summary>Client</summary>
   <ul>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/javascript">React</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/react">React</a></li>
   </ul>
 </details>
 
