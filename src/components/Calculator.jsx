@@ -27,13 +27,13 @@ const Calculator = () => {
           <button type="button" onClick={() => handleClick('AC')}>AC</button>
           <button type="button" onClick={() => handleClick('+')}>+/-</button>
           <button type="button" onClick={() => handleClick('%')}>%</button>
-          <button type="button" onClick={() => handleClick('&divide')}>&divide;</button>
+          <button type="button" onClick={() => handleClick('÷')}>&divide;</button>
         </div>
         <div className="buttonsContainer">
           <button type="button" onClick={() => handleClick('7')}>7</button>
           <button type="button" onClick={() => handleClick('8')}>8</button>
           <button type="button" onClick={() => handleClick('9')}>9</button>
-          <button type="button" onClick={() => handleClick('&times')}>&times;</button>
+          <button type="button" onClick={() => handleClick('x')}>&times;</button>
         </div>
         <div className="buttonsContainer">
           <button type="button" onClick={() => handleClick('4')}>4</button>
