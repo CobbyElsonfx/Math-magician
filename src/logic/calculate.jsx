@@ -27,7 +27,6 @@ export default function calculate(obj, buttonName) {
       return {};
     }
     // If there is an operation, update next
-
     if (obj.operation) {
       if (obj.next && obj.next !== '0') {
         return { ...obj, next: obj.next + buttonName };
@@ -35,14 +34,12 @@ export default function calculate(obj, buttonName) {
       return { ...obj, next: buttonName };
     }
     // If there is no operation, update next and clear the value
-
     if (obj.next && obj.next !== '0') {
       return {
         next: obj.next + buttonName,
         total: null,
       };
     }
-
     return {
       next: buttonName,
       total: null,
@@ -56,11 +53,9 @@ export default function calculate(obj, buttonName) {
       }
       return { ...obj, next: `${obj.next}.` };
     }
-
     if (obj.operation) {
       return { ...obj, next: '0.' };
     }
-
     if (obj.total) {
       if (obj.total.includes('.')) {
         return {};

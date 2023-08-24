@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import Screen from './Screen';
 import calculate from '../logic/calculate';
 
 const Calculator = () => {
@@ -10,7 +9,6 @@ const Calculator = () => {
   });
 
   const handleClick = async (buttonName) => {
-    // setCalculatorData()
     const newData = await calculate(calculatorData, buttonName);
     setCalculatorData(newData);
   };
@@ -20,14 +18,20 @@ const Calculator = () => {
       <div className="calculatorWrapper">
         <div className="displayScreen">
           <div>
-            <span className="calculatorValueOnScreen">{calculatorData.next || calculatorData.total || 0}</span>
+            <span className="
+            calculatorValueOnScreen"
+            >
+              {calculatorData
+                .next || calculatorData.total
+               || calculatorData.operation || 0 }
+            </span>
           </div>
         </div>
         <div className="buttonsContainer">
           <button type="button" onClick={() => handleClick('AC')}>AC</button>
           <button type="button" onClick={() => handleClick('+')}>+/-</button>
           <button type="button" onClick={() => handleClick('%')}>%</button>
-          <button type="button" onClick={() => handleClick('÷')}>&divide;</button>
+          <button type="button" onClick={() => handleClick('÷')}>÷</button>
         </div>
         <div className="buttonsContainer">
           <button type="button" onClick={() => handleClick('7')}>7</button>
@@ -48,7 +52,7 @@ const Calculator = () => {
           <button type="button" onClick={() => handleClick('+')}>+</button>
         </div>
         <div className="buttonsContainer">
-          <button type="button" id="zeroButton" onClick={() => handleClick('AC')}>0</button>
+          <button type="button" id="zeroButton" onClick={() => handleClick('0')}>0</button>
           <button type="button" onClick={() => handleClick('.')}>.</button>
           <button type="button" onClick={() => handleClick('=')}>=</button>
         </div>
