@@ -1,13 +1,10 @@
 import React from 'react';
+import Screen from './Screen';
 
 const Calculator = () => (
   <>
     <div className="calculatorWrapper">
-      <div className="displayScreen">
-        <div>
-          <span>0</span>
-        </div>
-      </div>
+      <Screen />
       <div className="buttonsContainer">
         <button type="button">AC</button>
         <button type="button">+/-</button>
