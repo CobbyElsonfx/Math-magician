@@ -20,6 +20,7 @@ const Quote = () => {
     }
     setQuotes(quotesJson);
     setIsLoading(false);
+    setError('');
   };
 
   useEffect(() => {
@@ -32,7 +33,10 @@ const Quote = () => {
         : (
           <div>
             <p>{quotes[0].quote}</p>
-            <small>{quotes[0].author}</small>
+            <small>
+              Author:
+              {quotes[0].author}
+            </small>
           </div>
         )}
       {error && <p>{error}</p>}
