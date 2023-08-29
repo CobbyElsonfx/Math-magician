@@ -28,18 +28,20 @@ const Quote = () => {
   }, []);
 
   return (
-    <div>
+    <div className="quoteWrapper">
+      <hr />
       {isLoading ? <p>Loading...</p>
         : (
-          <div>
+          <div className="quoteContent">
             <p>{quotes[0].quote}</p>
-            <small>
-              Author:
+            <div className="quoteAuthor">
+              Author:&nbsp;
               {quotes[0].author}
-            </small>
+            </div>
           </div>
         )}
       {error && <p>{error}</p>}
+      <hr />
     </div>
   );
 };
