@@ -91,10 +91,10 @@ hr {
 }
 
 .calculatorWrapperFall {
-  margin-top:4rem;
+  margin-top: 4rem;
   display: flex;
   flex-direction: row;
-  gap:2rem;
+  gap: 2rem;
   align-items: start;
   justify-content: center;
 }
@@ -103,7 +103,6 @@ hr {
   margin-top: 5rem;
   border-radius: 14px;
   box-shadow: 4px 3px 15px #fff;
-  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -255,10 +254,10 @@ ul a:hover {
   }
 
   .calculatorWrapperFall {
-    margin-top:4rem;
+    margin-top: 4rem;
     display: flex;
     flex-direction: column;
-    gap:2rem;
+    gap: 2rem;
     align-items: start;
     justify-content: center;
   }
