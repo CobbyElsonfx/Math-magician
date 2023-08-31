@@ -22,7 +22,7 @@ const Calculator = () => {
         <div className="calculatorWrapper">
           <div className="displayScreen">
             <div>
-              <span className="
+              <span id='display' className="
             calculatorValueOnScreen"
               >
                 {calculatorData

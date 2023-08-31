@@ -21,8 +21,8 @@ Object {
           >
             <div>
               <span
-                class="
- calculatorValueOnScreen"
+                class=" calculatorValueOnScreen"
+                id="display"
               >
                 0
               </span>
@@ -165,8 +165,8 @@ Object {
         >
           <div>
             <span
-              class="
- calculatorValueOnScreen"
+              class=" calculatorValueOnScreen"
+              id="display"
             >
               0
             </span>
