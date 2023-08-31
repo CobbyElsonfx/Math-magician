@@ -1,5 +1,5 @@
-import { render , screen ,fireEvent } from '@testing-library/react';
-import '@testing-library/jest-dom/extend-expect'
+import { render, screen, fireEvent } from '@testing-library/react';
+import '@testing-library/jest-dom/extend-expect';
 import Home from '../components/Home';
 import Navbar from '../components/Navbar';
 import Calculator from '../components/Calculator';
