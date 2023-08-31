@@ -1,0 +1,798 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Calculator Components should render Calculator 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="calculatorWrapperFall"
+      >
+        <div>
+          <h2>
+            Lets do some Maths
+          </h2>
+        </div>
+        <div
+          class="calculatorWrapper"
+        >
+          <div
+            class="displayScreen"
+          >
+            <div>
+              <span
+                class=" calculatorValueOnScreen"
+                id="display"
+              >
+                0
+              </span>
+            </div>
+          </div>
+          <div
+            class="buttonsContainer"
+          >
+            <button
+              type="button"
+            >
+              AC
+            </button>
+            <button
+              type="button"
+            >
+              +/-
+            </button>
+            <button
+              type="button"
+            >
+              %
+            </button>
+            <button
+              type="button"
+            >
+              ÷
+            </button>
+          </div>
+          <div
+            class="buttonsContainer"
+          >
+            <button
+              type="button"
+            >
+              7
+            </button>
+            <button
+              type="button"
+            >
+              8
+            </button>
+            <button
+              type="button"
+            >
+              9
+            </button>
+            <button
+              type="button"
+            >
+              ×
+            </button>
+          </div>
+          <div
+            class="buttonsContainer"
+          >
+            <button
+              type="button"
+            >
+              4
+            </button>
+            <button
+              type="button"
+            >
+              5
+            </button>
+            <button
+              type="button"
+            >
+              6
+            </button>
+            <button
+              type="button"
+            >
+              -
+            </button>
+          </div>
+          <div
+            class="buttonsContainer"
+          >
+            <button
+              type="button"
+            >
+              1
+            </button>
+            <button
+              type="button"
+            >
+              2
+            </button>
+            <button
+              type="button"
+            >
+              3
+            </button>
+            <button
+              type="button"
+            >
+              +
+            </button>
+          </div>
+          <div
+            class="buttonsContainer"
+          >
+            <button
+              id="zeroButton"
+              type="button"
+            >
+              0
+            </button>
+            <button
+              type="button"
+            >
+              .
+            </button>
+            <button
+              type="button"
+            >
+              =
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="calculatorWrapperFall"
+    >
+      <div>
+        <h2>
+          Lets do some Maths
+        </h2>
+      </div>
+      <div
+        class="calculatorWrapper"
+      >
+        <div
+          class="displayScreen"
+        >
+          <div>
+            <span
+              class=" calculatorValueOnScreen"
+              id="display"
+            >
+              0
+            </span>
+          </div>
+        </div>
+        <div
+          class="buttonsContainer"
+        >
+          <button
+            type="button"
+          >
+            AC
+          </button>
+          <button
+            type="button"
+          >
+            +/-
+          </button>
+          <button
+            type="button"
+          >
+            %
+          </button>
+          <button
+            type="button"
+          >
+            ÷
+          </button>
+        </div>
+        <div
+          class="buttonsContainer"
+        >
+          <button
+            type="button"
+          >
+            7
+          </button>
+          <button
+            type="button"
+          >
+            8
+          </button>
+          <button
+            type="button"
+          >
+            9
+          </button>
+          <button
+            type="button"
+          >
+            ×
+          </button>
+        </div>
+        <div
+          class="buttonsContainer"
+        >
+          <button
+            type="button"
+          >
+            4
+          </button>
+          <button
+            type="button"
+          >
+            5
+          </button>
+          <button
+            type="button"
+          >
+            6
+          </button>
+          <button
+            type="button"
+          >
+            -
+          </button>
+        </div>
+        <div
+          class="buttonsContainer"
+        >
+          <button
+            type="button"
+          >
+            1
+          </button>
+          <button
+            type="button"
+          >
+            2
+          </button>
+          <button
+            type="button"
+          >
+            3
+          </button>
+          <button
+            type="button"
+          >
+            +
+          </button>
+        </div>
+        <div
+          class="buttonsContainer"
+        >
+          <button
+            id="zeroButton"
+            type="button"
+          >
+            0
+          </button>
+          <button
+            type="button"
+          >
+            .
+          </button>
+          <button
+            type="button"
+          >
+            =
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Testing Calculator Components should render Footer 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <footer
+          class="footer"
+        >
+          <p>
+            Created by
+            <a
+              href="./"
+            >
+              CobbyElsonfx
+            </a>
+          </p>
+        </footer>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <footer
+        class="footer"
+      >
+        <p>
+          Created by
+          <a
+            href="./"
+          >
+            CobbyElsonfx
+          </a>
+        </p>
+      </footer>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Testing Calculator Components should render Navbar 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <nav
+        class="navbar"
+      >
+        <div
+          class="logo"
+        >
+          <a
+            href="./"
+          >
+            M
+             
+            <span
+              class="symb"
+            >
+              =+^
+            </span>
+          </a>
+        </div>
+        <div
+          class="links"
+        >
+          <ul>
+            <li>
+              <a
+                href="/"
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <a
+                href="/calculator"
+              >
+                Calculator
+              </a>
+            </li>
+            <li>
+              <a
+                href="/quote"
+              >
+                Quote
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </body>,
+  "container": <div>
+    <nav
+      class="navbar"
+    >
+      <div
+        class="logo"
+      >
+        <a
+          href="./"
+        >
+          M
+           
+          <span
+            class="symb"
+          >
+            =+^
+          </span>
+        </a>
+      </div>
+      <div
+        class="links"
+      >
+        <ul>
+          <li>
+            <a
+              href="/"
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              href="/calculator"
+            >
+              Calculator
+            </a>
+          </li>
+          <li>
+            <a
+              href="/quote"
+            >
+              Quote
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Testing Calculator Components should render Quote 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="quoteWrapper"
+      >
+        <hr />
+        <p>
+          Loading...
+        </p>
+        <hr />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="quoteWrapper"
+    >
+      <hr />
+      <p>
+        Loading...
+      </p>
+      <hr />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Testing Calculator Components should render home component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="homePageWrapper"
+      >
+        <div
+          class="sideBars"
+        >
+          <div
+            class="sideBar"
+          />
+          <div
+            class="sideBarFull"
+          />
+        </div>
+        <div
+          class="homeImg"
+        >
+          <h1>
+            Welcome to 
+            <span
+              class="MathMagicianWelc"
+            >
+              Maths Magician
+            </span>
+          </h1>
+          <p
+            class="pageIntro"
+          >
+            Get ready to explore the world of mathematics. Whether you are looking for quick calculations or inspiring math quotes, we have got you covered. Lets start your mathematical journey!
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="homePageWrapper"
+    >
+      <div
+        class="sideBars"
+      >
+        <div
+          class="sideBar"
+        />
+        <div
+          class="sideBarFull"
+        />
+      </div>
+      <div
+        class="homeImg"
+      >
+        <h1>
+          Welcome to 
+          <span
+            class="MathMagicianWelc"
+          >
+            Maths Magician
+          </span>
+        </h1>
+        <p
+          class="pageIntro"
+        >
+          Get ready to explore the world of mathematics. Whether you are looking for quick calculations or inspiring math quotes, we have got you covered. Lets start your mathematical journey!
+        </p>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
