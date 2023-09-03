@@ -52,7 +52,7 @@
 🚀 Live Demo
 Link to our deployed project (project is not deployed yet).
 
--[Live Link](https://math-magician-70kq.onrender.com)
+-[Live Link](https://64f4a2f4fca8382971422c40--shimmering-bonbon-e694a5.netlify.app/quote)
 
 
 <!-- GETTING STARTED -->
